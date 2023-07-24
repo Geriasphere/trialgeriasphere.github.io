@@ -1,0 +1,114 @@
+/* Your existing CSS styles here */
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dbe9f6;
+  }
+  
+  header {
+    background-color: #a6cee7;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    position: sticky;
+    top: 0;
+    z-index: 100; /* This ensures the header stays above other content as you scroll */
+  }
+  
+  header img {
+    max-width: 450px; /* Adjust the max-width to fit your logo size */
+  }
+  
+  main {
+    padding: 1rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    font-family: 'Fira Sans', sans-serif;
+    border-bottom: 2px solid #345995;
+    text-align: center;
+    padding-bottom: 0.5rem;
+  }
+  
+  .app-category {
+    background-color: #f0f0f0;
+    padding: 1rem;
+  }
+  
+  footer {
+    background-color: #a6cee7; /* Same color as the header */
+    color: #000;
+    text-align: center;
+    padding: 0.07rem; /* Reduced padding for a thinner footer */
+  }
+  
+  /* The new CSS styles for app categories and about section */
+  #categories {
+    padding: 1rem 1rem 0;
+    background-color: #dbe9f6; /* Lighter blue color for the background */
+  }
+  
+  .app-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 1rem;
+  }
+  
+  .app-category {
+    background-color: #fff; /* White background for the app category boxes */
+    padding: 1rem;
+    text-align: center;
+    border-radius: 8px;
+  }
+  
+  .app-category img {
+    max-width: 100px;
+  }
+  
+  .app-category p {
+    font-weight: bold;
+    margin-top: 0.5rem;
+  }
+  
+  /* Media queries for responsive layout */
+  @media (max-width: 768px) {
+    .app-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .app-grid {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
+  /* The new CSS styles for the about section */
+
+  #about {
+    padding: 1rem 1rem 0;
+    background-color: #dbe9f6; /* Same background color as the App Guides */
+  }
+  
+  .suggest-button {
+    display: block;
+    text-align: center;
+    padding: 0.5rem 1rem; /* Reduced padding to make the button smaller */
+    background-color: #a6cee7;
+    color: #000;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 1rem auto; /* Center the button horizontally */
+    max-width: 100px; /* Limit the button width to make it smaller */
+    border: 2px solid #000; /* Add a black border to the button */
+  }
+  
