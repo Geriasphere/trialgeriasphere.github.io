@@ -88,6 +88,20 @@ body {
     }
   }
 
+/* Your existing CSS styles here */
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  header {
+    padding: 0.5rem; /* Adjust the padding to make the header tinier */
+  }
+
+  header img {
+    max-width: 200px; /* Adjust the max-width to make the logo smaller */
+  }
+}
+
+
   #about {
     padding: 1rem 1rem 0;
     background-color: #dbe9f6; 
