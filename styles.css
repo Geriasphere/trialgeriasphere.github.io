@@ -88,15 +88,21 @@ body {
     }
   }
 
-    @media (max-width: 768px) {
-      header {
-        padding: 0.5rem; 
-      }
-    
-      header img {
-        max-width: 200px; 
-      }
-    }
+  /* Replace the previous media query in your styles.css file with this one */
+@media (max-width: 768px) {
+  header {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px; /* Adjust the height to your preference */
+  }
+
+  header img {
+    max-width: 150px; /* Adjust the max-width to your preference */
+  }
+}
+
 
 
   #about {
