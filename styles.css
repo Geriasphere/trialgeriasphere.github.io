@@ -87,19 +87,17 @@ body {
       grid-template-columns: repeat(1, 1fr);
     }
   }
-
-  /* Replace the previous media query in your styles.css file with this one */
 @media (max-width: 768px) {
   header {
     padding: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60px; /* Adjust the height to your preference */
+    height: 60px;
   }
 
   header img {
-    max-width: 150px; /* Adjust the max-width to your preference */
+    max-width: 150px; 
   }
 }
 
@@ -122,4 +120,5 @@ body {
     max-width: 100px; 
     border: 2px solid #000; 
   }
+  
   
